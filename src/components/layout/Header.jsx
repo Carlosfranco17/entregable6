@@ -34,12 +34,12 @@ const dispatch= useDispatch()
   return (
     <section className=' flex justify-between  h-[100px] text-xl border-[1px] items-center w-full '>
 
-<Link  to="/"><h1 className='text-red-500 font-semibold px-8 text-5xl'> e-commerce</h1></Link>
+<Link  to="/"><h1 className='text-red-500 font-semibold px-8 text-3xl'> e-commerce</h1></Link>
 
-    <nav className='text-gray-400 flex h-full  '>
-        <Link to="/login" className='px-[113px]  text-4xl border-x-[1px] h-full '> <i className='bx bx-user'></i></Link>
-        <Link to="/purchases" className='px-[113px]  text-4xl border-x-[1px] h-full '> <i className='bx bx-box'></i></Link>
-        <button onClick={handleShowCart} className={`px-[113px]  text-4xl border-x-[1px] h-full ${isShowCart ? "text-red-500" :"text-gray-400"} `}><i className='bx bx-cart'></i> </button>
+    <nav className='text-gray-400  h-full justify-center '>
+        <Link to="/login" className='px-[70px]  text-4xl border-x-[1px]   py-auto '> <i className='bx bx-user'></i></Link>
+        <Link to="/purchases" className='px-[70px]  text-4xl border-x-[1px]  py-0'> <i className='bx bx-box'></i></Link>
+        <button onClick={handleShowCart} className={`px-[70px]  text-4xl border-x-[1px] h-full ${isShowCart ? "text-red-500" :"text-gray-400"} `}><i className='bx bx-cart'></i> </button>
     </nav>
 
 
