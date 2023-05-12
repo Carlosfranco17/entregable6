@@ -32,7 +32,7 @@ const dispatch= useDispatch()
 
 
   return (
-    <section className=' flex justify-between  h-[100px] text-xl border-[1px] items-center w-full '>
+    <section className=' flex justify-between  h-[80px] text-xl border-[1px] items-center w-full '>
 
 <Link  to="/"><h1 className='text-red-500 font-semibold px-8 text-3xl'> e-commerce</h1></Link>
 

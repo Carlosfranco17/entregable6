@@ -55,7 +55,7 @@ const Home = () => {
     <main className="">
       <form   onSubmit={handleSubmit}>
         <div className="flex justify-center mx-auto  border-[1px] w-[50%] items-center mt-[4%]">
-          <input className=" mx-auto  border-[1px] w-[100%] py-2 "
+          <input className=" mx-auto  border-[1px] w-[100%] py-2 px-2 outline-none "
             id="productName"
             type="text"
             placeholder="What are you looking for?"
